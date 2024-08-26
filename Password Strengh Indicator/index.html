@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Password Strength Indicator</title>
+</head>
+<body>
+
+    <div class=" container w-full bg-red-200 h-screen grid place-content-center">
+        <div class="input w-[500px] p-5 ">
+            <input type="text" class="w-full p-5 rounded-xl text-xl outline-none m-auto" id="password" placeholder="Enter Your Password">
+        </div>
+        <div class="output m-auto">
+            <span id="indicator" class="text-xl"></span>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
