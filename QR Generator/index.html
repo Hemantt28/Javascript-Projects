@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>QR Code Generator</title>
+</head>
+<body>
+    <div class="w-full h-screen bg-red-200 grid place-items-center">
+
+        <div class="bg-white w-1/2 grid place-items-center rounded-xl py-5">
+
+            <h1 class="text-2xl font-base md:font-medium mb-3">QR Code Generator</h1>
+            <input id="qrInput" class="w-3/4/ md:w-1/2 m-2 auto bg-gray-200 text-center text-base p-2.5 rounded-xl color-white placeholder-black" type="text" placeholder="Place your url here or Type it Out">
+            <button id="qrBtn" class="bg-green-500 p-2 md:p-4 mt-3 rounded-2xl hover:bg-green-400 cursor:pointer mb-5">Click here to Generate QR Code</button>
+            <img src="" alt="" id="qrImg">
+            
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
